@@ -1,0 +1,193 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+ul > img {
+    width: 4vw;
+    height: 9vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div > img {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.first-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.first-pro > h1 {
+    color: white;
+}
+
+.first-pro > p {
+    color: white;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.pro-links {
+    display: flex;
+    gap: 32px;
+}
+
+.discount {
+    color: black;
+}
+
+.pro-links > a {
+    color: lightskyblue;
+    margin-bottom: 12px;
+}
+
+.smart-watch {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.smart-watch > h1 {
+    color: white;
+}
+
+.smart-watch > p {
+    color: white;
+}
+
+.pPad > h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.pPad > p {
+    color: black;
+}
+
+.pPad-and-Pac {
+    display: flex;
+    justify-content: center;
+    background-color: #040605;
+}
+
+.pPad {
+    background-color: white;
+}
+
+.pPad > img {
+    width: 50vw;
+}
+
+.Pac > img {
+    width: 50vw;
+}
+
+.Pac > h1,p {
+    color: white;
+    font-weight: bold;
+}
+
+.pPad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding-bottom: 12px;
+}
+
+.Pac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-section {
+    background-color: black;
+}
+
+.groundpods > h1 {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 48px;
+}
+
+.groundpods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accessories > h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.accessories > p {
+    color: black;
+    font-weight: bold;
+}
+
+.accessories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ababab;
+}
+
+.support {
+    background-color: black;
+    text-align: center;
+}
+
+.support > h1 {
+    color: white;
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    margin: 0;    
+    padding: 16px;
+}
